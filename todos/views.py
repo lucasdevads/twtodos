@@ -5,3 +5,5 @@ def home(request):
     return render(request, "todos/home.html")
 
 
+def page(request):
+    return render(request,)
